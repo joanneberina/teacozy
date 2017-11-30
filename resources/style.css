@@ -1,0 +1,147 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    width: 100%; 
+    min-width: 200px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    background-size: contain;
+    margin-left: 10px;
+}
+
+.logo img {
+    width: auto;
+    height: 50px;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 10px;
+}
+
+header nav span {
+    display: inline-block;
+    margin: auto 10px;
+}
+
+nav a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+.content {
+    padding-top: 69px;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("images/img-mission-background.jpg");
+}
+
+.headings {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+
+.headings h2 {
+    display: block;
+    margin: 0px;
+}
+
+.headings h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#tofdmo {
+    width: 1000px;
+    align-items: center;
+    margin: 80px auto;
+}
+
+#img-teas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#img-teas div {
+    display: inline-block;
+    margin: 10px;
+}
+
+#img-teas img {
+    height: 200px;
+    width: 300px;
+}
+
+#img-teas h4 {
+    text-align: center;
+    margin: 10px;
+}
+
+#locations {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("images/img-locations-background.jpg");
+}
+
+#locations>div {
+    margin: 0 auto;
+}
+
+#locations h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.cards>div {
+    display: inline-block ;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    opacity: 1;
+    margin: 0 20px;
+}
+
+#contact {
+   text-align: center;
+}
+
+#copyright {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
